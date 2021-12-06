@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Sign Up</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <p class="title">Driver Hub</p>
+    <div class="container-3">
+        <form action="" style="border:1px solid #ccc">
+            <div class="container">
+              <p>Fill the Form(<i style="color: rgb(146, 18, 18);">Passenger</i>)</p>
+              <hr>
+          
+              <label for="name">NID Number</label>
+              <input type="text" placeholder="Enter Your NID Number" name="nid_number" required>
+          
+              <label for="address">Address</label><br>
+              <select name="division" id="division" placeholder="Division" required style="width: 49%;">
+                <option value="Dhaka" style="color: black;">Dhaka</option>
+                <option value="Rajshahi" style="color: black;">Rajshahi</option>
+                <option value="Chattogram" style="color: black;">Chattogram</option>
+                <option value="Rangpur" style="color: black;">Rangpur</option>
+                <option value="Barishal" style="color: black;">Barishal</option>
+                <option value="Sylhet" style="color: black;">Sylhet</option>
+                <option value="Mymensingh" style="color: black;">Mymensingh</option>
+                <option value="Khulna" style="color: black;">Khulna</option>
+            </select>
+              <input type="text" placeholder="District" name="district" required style="width: 49%;">
+              <input type="text" placeholder="Area" name="area" required style="width: 49%;">
+               <br>           
+          
+              <label for="username">User Name</label><br>
+              <input type="text" placeholder="Select a User Name" name="username" required style="width: 50%;">
+              <br>
+
+              <label for="password">Password</label>
+              <label for="confirm_password" style="margin-left: 300px;">Confirm Password</label><br>
+              <br>
+              <input type="password" placeholder="Enter Password" name="password" required style="width: 45%;">
+
+              <input type="password" placeholder="Confirm Password" name="confirm_password" required style="width: 45%; margin-left: 50px;">
+          
+              <div class="buttons">
+                <button class="sign_up">Sign Up</button>
+              </div>
+            </div>
+          </form>
+    </div>
+</body>
+</html>
