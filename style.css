@@ -109,10 +109,6 @@ p{
     font-weight: bolder;
 }
 
-b{
-    margin-left: 350px;
-}
-
 .buttons::after {
   content: "";
   clear: both;
@@ -121,6 +117,8 @@ b{
 
 .f_password{
   margin-left: 350px;
+  font-size: 17px;
+  margin-bottom: 50px;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
